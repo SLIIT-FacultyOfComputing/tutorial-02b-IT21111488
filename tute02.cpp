@@ -18,9 +18,11 @@ using namespace std;
 
 int main()
 {
+  //variable declareation
    double salary, netSalary;
    int etype, otHrs, otRate;
 
+  //taking employee details
    cout << "Enter Employee Type : ";
    cin >> etype;
    cout << "Enter Salary  : ";
@@ -40,9 +42,10 @@ int main()
           break;
    }
 
-
+  //calculation
    netSalary = salary + otHrs* otRate;
-
+  
+  //display net salary
    cout << "Net Salary is  " << netSalary;
   
    return 0;

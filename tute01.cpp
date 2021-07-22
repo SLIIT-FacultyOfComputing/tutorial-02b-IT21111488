@@ -25,13 +25,17 @@ using namespace std;
 
 int main() 
 {
+  //declare variables
     float cm, inches;
 
+    //asking to enter the length in cm
     cout <<"Enter a length in cm : ";
     cin >> cm;
     
+    //calculation
     inches = cm / 2.54;
 
+    //display length in inches
     cout <<"Length in inches is " << setprecision(3) << inches << endl;
 
     return 0;
